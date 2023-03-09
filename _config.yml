@@ -1,24 +1,19 @@
-title: "My Blogs Name"
-author: "Default Author Name"
-description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: "The Credit Card Cafe"
+author: "Tommy Cho"
+description: "A beginner's guide to credit cards and frequent flyer programs for young adults who want to travel" 
+# This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "example@mail.com"
-twitter_username: "twitteruser"
-github_username: "githubuser"
-linkedin_username: "linkedinuser"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+email: "tommydcho@gmail.com"
+github_username: "tommycho1004"
+linkedin_username: "tommycho1004"
+instagram_username: tommycho1004
+
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+remote_theme: pages-themes/minimal@v0.2.0
+
 
 rss: rss
 
@@ -29,6 +24,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
